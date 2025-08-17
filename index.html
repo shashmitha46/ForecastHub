@@ -16,13 +16,26 @@
 
 <body>
 
-   <h1>API Project</h1>
+   <div class="overlay">
+    <h1>ForecastHub</h1>
+    <h2>European Weather Forecast</h2>
+    
+    <select id="city-select">
+      <option value="">-- select a city --</option>
+      <!-- Dynamically populated -->
+    </select>
+    
+    <div class="unit-toggle">
+      <button id="toC">°C</button>
+      <button id="toF">°F</button>
+    </div>
+    
+    <div id="weather-output"></div>
+    
+    <div class="powered-by">
+      Powered by <a href="http://www.7timer.info">7Timer!</a>
+    </div>
+  </div>
 
+  <script src="script.js"></script>
 </body>
-
-<footer>
-    <p class="copyright-text">© Copyright 2023 _______ </p>
-</footer>
-
-<!-- Our codes -->
-<script src="js/main.js"></script>

@@ -1,4 +1,47 @@
 body {
-    background-color: #d7d7d7;
-    color: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('../images/background.jpg') no-repeat center center/cover;
+  font-family: Arial, sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent layer */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 { font-size: 3rem; margin: 0; }
+h2 { font-size: 1.5rem; margin: 10px 0; }
+
+select {
+  padding: 8px;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.unit-toggle button {
+  padding: 6px 12px;
+  font-size: 1rem;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.powered-by {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9rem;
+}
+.powered-by a {
+  color: #ffd700;
+  text-decoration: none;
 }
